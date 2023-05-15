@@ -1,0 +1,193 @@
+<!--seperate products-->
+<html>
+<head>
+<title>separate products</title>
+
+<style type="text/css">
+
+.table1{margin-left:480px;}
+h3{ }
+table{font-size: 20px;}
+
+
+#image1{height:380px;width:380px;}
+.shareimg{}
+.buy{width:455px; height:50px; background-color:green; border-color: black;}
+p{}
+ul{
+
+  list-style: none;
+  width:500px;}
+  ul.li{
+display:block;
+    line-height: 21px;
+  }
+    ul li.a{
+      display:block;
+      padding:8px 25px;
+      color:#333;
+      text-decoration: none;}
+      ul a:hover{
+        color:blue;
+
+      }
+      ul li ul.dropdown{
+        min-width: 100px;
+
+        display:none;
+
+        z-index:999;
+        left:0;}
+        ul li:hover ul.dropdown{display:block;
+        }
+
+
+</style>
+</head>
+
+<body>
+
+<div class="row">
+<div class="cols-lg-6">
+  <h1 align="center">A Miniature boy on bike wearing red helmet</h1>
+</div>
+</div>
+
+<table class="table1">
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>
+ <ul><li>
+<br/>
+<br/>
+
+<a href="#"><img src="share.jpg" class="shareimg"></a>
+    <ul class="dropdown">
+      <li><a href="#">whatsapp</a>
+      </li>
+      <li><a href="#">facebook</a>
+      </li>
+      <li><a href="#">SMS</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+
+</td>
+
+</tr>
+
+
+
+
+<tr>
+<td></td>
+<td></td>
+
+    <td><img id="image1" src="imgOrg38.jpeg" ></td>
+<td></td>
+<td></td>
+</tr>
+</table>  
+<table align="center">
+ 
+  <tr><td></td><td></td></tr>
+  <tr><td></td><td></td></tr>
+  <tr><td></td><td></td></tr>
+  <tr><td></td><td></td></tr>
+  <tr><td></td><td></td></tr>
+  <tr><td></td><td></td></tr>
+  <tr><td></td><td></td></tr>
+  <tr><td></td><td></td></tr>
+<tr>
+  <td>
+  </td>
+</table>
+<div class="row">
+<div class="cols-lg-6">
+<h1 align="center">Miniature biker</h1>
+</div>
+</div>
+
+<div class="row">
+<div class="cols-lg-6">
+  <table align="center" cellspacing="20">
+  <td></td>
+  </tr>
+  <tr><td>Size</td><td> :</td><td>3.5cm*4.0cm</td></tr>
+  <tr><td>price</td><td>:</td><td>499/-</td></tr>
+  <tr><td>colour</td><td>:</td><td>red</td></tr>
+  <tr><td>material</td><td>:</td><td>plastic</td></tr>
+ 
+</table>
+
+</div>
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+<table align="right">
+<tr>
+<td><img src="whiteheart.jpeg" onclick="change1()" id="some"></td><td></td><td><img class="cart" src="kartemoji.jpeg" onclick="change2()" id="some1" ></td>
+</tr>
+<tr>
+<td><h3 class="love">wishlist</h3></td><td></td><td><h3 class="cartheading" >Add to cart</h3></td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<table align="center">
+<tr>
+<td><a href="buy page(PD).html"><input type="button" name="buy" value="buy" class="buy" ></td>
+</tr>
+</table>
+
+
+<script type="text/javascript">
+function change1(x)
+{
+  var x=document.getElementById("some");
+  if(x.src.match("whiteheart.jpeg"))
+  {
+  x.src="redheart.jpg";
+}
+else
+  {
+  x.src="whiteheart.jpeg";
+  }
+
+}
+function change2(y)
+{
+  var y=document.getElementById("some1");
+  if(y.src.match("kartemoji.jpeg"))
+  {
+  y.src="addedtocart.png";
+}
+else
+  {
+  y.src="kartemoji.jpeg";
+  }
+}
+
+</script>
+
+</body>
+</html>
